@@ -1,0 +1,47 @@
+.HeaderContainer{
+    height: 5rem;
+}
+
+.HeaderContent{
+    max-width: 2500px;
+    height: 5.5rem;
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: rgba(10,23,55,0.6);
+    
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        a{
+            color: white;
+            text-decoration: none;
+            transition: color .8s;
+            font-size: 20px;
+    
+            &:hover{
+                color:  yellow;
+                
+            }
+        }
+
+        button{
+            border: 0;
+            margin-left: 16px;
+            background: transparent;
+            transition: transform 0.5s;
+            color: var(--yellow-900);
+
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
